@@ -48,6 +48,8 @@ while i <  TotalEntries:
 
     # Click New
     csr.click(NewButtonPosition)
+    # Delay. Especially because the first time clicking New is slow.
+    time.sleep(0.5) # UNTESTED if needed. Works but is it needed?
     
     j = 0
     # Iterate through rows.
@@ -69,3 +71,12 @@ while i <  TotalEntries:
 
 
 Print('Data entry complete')
+
+
+
+
+
+
+
+
+
